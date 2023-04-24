@@ -1,0 +1,66 @@
+ <div class="back">
+    <button mat-flat-button style="background-color: rgb(185, 237, 105)" class="mt-3 text-light" (click)="open()"><mat-icon></mat-icon>Add Products</button>
+    <div class=" ">
+        <div class="mt-4">
+        <mat-form-field appearance="outline">
+            <mat-label>Search</mat-label>
+            <input matInput type="text" [(ngModel)]="Search">
+        </mat-form-field>
+    </div>
+<div class="d-flex justify-content-center">
+     
+    <img src="assets/icon.png" width="250px" >
+</div>
+</div>
+<div class="d-flex flex-wrap justify-content-around">
+<div *ngFor="let food of  products|search:Search" >
+    <mat-card>
+        <mat-card-header style="color: goldenrod;justify-content: center;"><h3>{{food.ProductName|uppercase}}</h3>
+         </mat-card-header>
+
+        <mat-card-content style="justify-content: center; display: flex;">
+            <h4 *ngIf="food.type==='veg'"><img src="https://openclipart.org/image/800px/304248" width="30px"></h4>
+            <h4 *ngIf="food.type==='non-veg'"><img src="https://th.bing.com/th/id/OIP.ZLZdjn6ACLoGo6y6ZFEKWQAAAA?pid=ImgDet&rs=1" width="30px"></h4>
+            <img src="{{food.imageUrl}}" alt="products" width="200px" height="180px">
+        </mat-card-content>
+        <h3 style="padding-left: 15px; "><b>Price:</b><span class="text-success" style="padding-left: 5px;">{{food.price|currency:'INR'}}</span></h3>
+        
+
+
+        <mat-card-actions class="mt-3">
+            <button mat-flat-button [routerLink]="['/dash/pd',food]" class="text-success"> Click for More Details</button>
+            <!-- <button class="btn btn">Click for More Details</button> -->
+        </mat-card-actions>
+    </mat-card>
+</div>
+</div>
+</div>
+ 
+
+
+<!-- 
+<div class="d-flex flex-wrap justify-content-around">
+    <h1  ></h1>
+    <input matInput type="color" [(ngModel)]="box1"> 
+    <input matInput type="color" [(ngModel)]="box2">
+    <input matInput type="color" [(ngModel)]="box3">
+</div>
+    <div class=" d-flex flex-wrap justify-content-around">
+        <div>
+        <mat-card *ngFor="let ttd of ttd1" [ngStyle]="{backgroundColor:box1}"> 
+            
+        </mat-card>
+</div>
+<div>
+        <mat-card *ngFor="let ttd of ttd2" [ngStyle]="{backgroundColor:box2}"> 
+            
+        </mat-card>
+        </div>
+        <div>
+        <mat-card *ngFor="let ttd of ttd3" [ngStyle]="{backgroundColor:box3}"> 
+            
+        </mat-card>
+
+        </div>
+
+    </div> -->

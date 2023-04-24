@@ -1,0 +1,244 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "vegitable": [
+    {
+      "productId": "V100089",
+      "ProductName": "curry leaves,1bunch",
+      "Quantity": "4",
+      "Ingerdiance": "sdvsdbg",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://th.bing.com/th/id/OIP.Um1MhltLED0GkQ6dkNyV6gHaE8?pid=ImgDet&rs=1",
+      "mrp": "24",
+      "price": "12",
+      "discount": "50",
+      "id": 1
+    },
+    {
+      "productId": "V100089",
+      "ProductName": "tomato",
+      "Quantity": "20",
+      "Ingerdiance": "scadvsv",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://i0.wp.com/www.gardeningknowhow.com/wp-content/uploads/2014/06/veggies.jpg?fit=1698%2C1131&ssl=1",
+      "mrp": "33",
+      "price": "24",
+      "discount": "12",
+      "id": 2
+    },
+    {
+      "productId": "C100087",
+      "ProductName": "carrot,1kg",
+      "Quantity": "12",
+      "Ingerdiance": "dsvfdb",
+      "type": "veg",
+      "isactive": null,
+      "imageUrl": "https://th.bing.com/th/id/OIP.HJ1GybYAMddPVos5Ho2t9QHaFj?pid=ImgDet&rs=1",
+      "mrp": "55",
+      "price": "45",
+      "discount": "20",
+      "id": 3
+    },
+    {
+      "productId": "V1000290",
+      "ProductName": "cauliflower,1kg",
+      "Quantity": "12",
+      "Ingerdiance": "sdvsdbf",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://www.dailypioneer.com/uploads/2020/story/images/big/compound-in-cabbage--cauliflower-may-help-fight-fatty-liver-disease--study-2020-02-07.jpg",
+      "mrp": "45",
+      "price": "35",
+      "discount": "12",
+      "id": 4
+    },
+    {
+      "productId": "V10057",
+      "ProductName": "Blue Brinjal,1kg",
+      "Quantity": "12",
+      "Ingerdiance": "cvdbf",
+      "type": "veg",
+      "isactive": null,
+      "imageUrl": "https://kiasumart.com/wp-content/uploads/2020/09/Brinjal-500g.jpeg",
+      "mrp": "42",
+      "price": "30",
+      "discount": "10",
+      "id": 5
+    },
+    {
+      "productId": "V1000345",
+      "ProductName": "Green Brinjal,1kg",
+      "Quantity": "19",
+      "Ingerdiance": "sadvsd",
+      "type": "veg",
+      "isactive": null,
+      "imageUrl": "https://payfresh.in/wp-content/uploads/2020/12/Green-Brinjal.jpg",
+      "mrp": "32",
+      "price": "28",
+      "discount": "10",
+      "id": 6
+    },
+    {
+      "productId": "V100088",
+      "ProductName": "Capsicum,1kg",
+      "Quantity": "12",
+      "Ingerdiance": "dqefwfe",
+      "type": "veg",
+      "isactive": null,
+      "imageUrl": "https://th.bing.com/th/id/R.f199230ec3f90d174cdd8ca1ba8659b7?rik=ho4DNSOHcSWldQ&riu=http%3a%2f%2fmexfreshproduce.com%2fimages%2fvegetables%2fgreen-pepper.png&ehk=A%2fssoJIl42JVirGXrIgbw7C%2fknjBXke4%2b5CY%2bhXeCP8%3d&risl=&pid=ImgRaw&r=0",
+      "mrp": "42",
+      "price": "38",
+      "discount": "8",
+      "id": 7
+    },
+    {
+      "productId": "V1000567",
+      "ProductName": "Red Capsicum",
+      "Quantity": "4",
+      "Ingerdiance": "sdafsvf",
+      "type": "veg",
+      "isactive": null,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0422/3113/6417/products/Capsicum_-_Red_128854810.jpg?v=1605724688",
+      "mrp": "62",
+      "price": "48",
+      "discount": "10",
+      "id": 8
+    },
+    {
+      "productId": "V100099",
+      "ProductName": "DrumStick",
+      "Quantity": "12",
+      "Ingerdiance": "dvsfbdg",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://krishijagran.com/media/2664/drumstick.jpg",
+      "mrp": "45",
+      "price": "34",
+      "discount": "10",
+      "id": 9
+    },
+    {
+      "productId": "V000192",
+      "ProductName": "Red Onions,1kg",
+      "Quantity": "23",
+      "Ingerdiance": "czvxb",
+      "type": "veg",
+      "isactive": null,
+      "imageUrl": "https://cdn.tridge.com/attachment/d1b7a79a2bf7a098214611ee94410857f842cff5.jpg",
+      "mrp": "65",
+      "price": "45",
+      "discount": "20",
+      "id": 10
+    },
+    {
+      "productId": "V1000432",
+      "ProductName": "Apple,1/2kg",
+      "Quantity": "14",
+      "Ingerdiance": "advdbg",
+      "type": "veg",
+      "isactive": null,
+      "imageUrl": "https://th.bing.com/th/id/R.4843110c0a87f69186b7ad89e64100ee?rik=deoPIjwO6lqWDw&riu=http%3a%2f%2fwww.macdentalcare.com%2fpub%2fphoto%2f2014-09-apple.jpg&ehk=1jWW2Y93AcmfCzYqdhHfNZVQ%2b966gzfWYNPyGsDgpz8%3d&risl=&pid=ImgRaw&r=0",
+      "mrp": "120",
+      "price": "80",
+      "discount": "40",
+      "id": 11
+    },
+    {
+      "productId": "V000193",
+      "ProductName": "Black Grapes,1/2kg",
+      "Quantity": "12",
+      "Ingerdiance": "cadsvd",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2021/1/ZL/FN/CF/97335262/black-grapes.jpg",
+      "mrp": "54",
+      "price": "43",
+      "discount": "20",
+      "id": 12
+    },
+    {
+      "productId": "V0001832",
+      "ProductName": "ThotaKoora,1bunch",
+      "Quantity": "12",
+      "Ingerdiance": "sfsdadvf",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://i0.wp.com/www.biodorf.com/wp-content/uploads/2019/05/Thotakura.jpg?fit=800%2C800&ssl=1",
+      "mrp": "22",
+      "price": "18",
+      "discount": "5",
+      "id": 13
+    },
+    {
+      "productId": "V100993",
+      "ProductName": "Flat Beans,1kg",
+      "Quantity": "12",
+      "Ingerdiance": "sdvfd",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://cdn11.bigcommerce.com/s-kknankib6z/images/stencil/1280x1280/products/16193/32483/fresh-veg-valor-flat-beanschikkudukaya-0.5-lb__19770.1603220447.jpg?c=2?imbypass=on",
+      "mrp": "33",
+      "price": "22",
+      "discount": "12",
+      "id": 14
+    },
+    {
+      "productId": "V1000312",
+      "ProductName": "dosakay,1kg",
+      "Quantity": "15",
+      "Ingerdiance": "sdvf",
+      "type": "veg",
+      "isactive": true,
+      "imageUrl": "https://th.bing.com/th/id/OIP.9zafe50Sg58Bq8zqvwRl6wHaFW?pid=ImgDet&w=480&h=347&rs=1",
+      "mrp": "25",
+      "price": "18",
+      "discount": "9",
+      "id": 15
+    }
+  ],
+  "user": [
+    {
+      "profile":"assets/babu.jpeg",
+      "username": "Babu26440",
+      "password": "Babu@123",
+      "email": "jb2467382@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "id": 1
+    },
+    {
+      "username": "babu26440",
+      "password": "Babu@123",
+      "email": "babukatta22@gmail.com",
+      "gender": "male",
+      "role": "Admin",
+      "isactive": true,
+      "id": 2
+    }
+  ],
+  "masterPassword": [
+    {
+      "id": 1,
+      "Industry":"Veggies Market",
+      "password": "Babu@123"
+    }
+  ]
+}

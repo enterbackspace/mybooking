@@ -1,0 +1,19 @@
+mat-card{
+    width: 350px;
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-size: 550px;
+}
+mat-form-field{
+    width: 400px;
+    color:white;
+    height: 55px;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+mat-icon{
+  color:  rgb(37, 60, 2)
+}
+  

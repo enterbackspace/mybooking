@@ -1,0 +1,43 @@
+mat-card{
+    margin: 0 auto;
+    margin-top:100px;
+    /* max-width: 400px; */
+    border-radius: 30px;
+    background-color:rgb(185, 237, 105);
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image: url('https://wallpapercave.com/wp/wp3104916.jpg');
+background-size: 100%;
+background-position: top;
+
+
+
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.dd{
+    margin-left: 25%;
+}
+ 
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    justify-content: center;
+}
+mat-form-field{
+    margin-bottom:24px;
+    /* width: 270px; */
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #ddd ;
+    background-color: #ddd;
+}
+ mat-icon{
+    color:red
+ }

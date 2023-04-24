@@ -1,0 +1,34 @@
+<div class="vh-100">
+    <mat-card class="dd">
+    <div class=" d-flex   justify-content-center mt-5">
+      <img src="assets/icon.png" width="100px">
+
+    </div>
+    <div class=" d-flex justify-content-center">
+        <h2 [style.color]="'White'"><b>Login</b> </h2>
+        
+    </div>
+    <mat-card-content class="d-flex  flex-wrap justify-content-center" >
+        <form [formGroup]="loginForm"  >
+            <mat-form-field appearance="outline">
+                <mat-label>username</mat-label>
+                <input matInput   formControlName="username">
+                <mat-error *ngIf="loginForm.invalid"  >enter Username</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>password</mat-label>
+
+                <input matInput type="password"  formControlName="password" >
+                <mat-error *ngIf="loginForm.invalid"  >please enter a correct password</mat-error>
+            </mat-form-field>
+            <div>
+
+                <a mat-raised-button class="btn btn"    (click)="log()"><mat-icon matTextPrefix class=" text-danger">lock</mat-icon>submit</a> 
+               <a  mat-raised-button class="btn btn" routerLink="/reg">Register</a>
+               <a mat-flat-button  class="btn btn dd" [disabled]="loginForm.valid"   routerLink="/password"> <mat-icon>error_outline</mat-icon>Forgot Password</a>
+            </div>
+
+        </form>
+
+    </mat-card-content>
+ </mat-card>

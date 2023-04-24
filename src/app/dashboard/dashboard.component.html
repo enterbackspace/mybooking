@@ -1,0 +1,28 @@
+<mat-toolbar>
+   <button mat-icon-button (click)="sidenav.toggle()" matTooltip="menu" class="text-light"><mat-icon>menu</mat-icon></button>
+   <div class="d-flex flex-wrap justify-content-center">
+      <img src="assets/icon.png" width="100px">
+   </div>
+    <span style="flex: 1 1 auto;"></span>
+    <button mat-icon-button (click)="open()" matTooltip="Profile Details"><img src="{{profile}}" mat-card-avatar  width="150px"></button>
+</mat-toolbar>
+<mat-sidenav-container>
+   <mat-sidenav #sidenav [mode]="'over' " style="border: 1px solid white;">
+     <mat-nav-list>
+       
+       <div style="width: fit-content ;padding: 2; margin-left: 30px;  ">
+         <p class=" text-primary btn btn" routerLink="product"><i class="bi bi-bag-fill"></i>Products</p><br>
+       </div>
+       
+       <hr style="background-color: aliceblue;">
+
+     </mat-nav-list>
+   </mat-sidenav>
+   <mat-sidenav-content style="height: 500px; ">
+
+     <router-outlet></router-outlet>
+   </mat-sidenav-content>
+    
+ </mat-sidenav-container>
+ <mat-toolbar class="text-primary"><span style="flex: 1 1 auto;"></span><h4>{{date|date:'yyyy-m-dd'}}</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4>{{date|date:'hh:mm:ss'}}</h4>
+</mat-toolbar>
